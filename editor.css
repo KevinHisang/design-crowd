@@ -1,0 +1,43 @@
+ .ui-dialog-title{
+    font-size: 17px;
+  }
+
+  .color-dialog{
+    width:100px;
+  }
+
+  #toolbar {
+    top: 0px;
+    font-size: 14px;
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 10000;
+    display: inline-block;
+  }
+
+  .container{
+    margin-top:100px;
+    margin-left: 50px;
+  }
+
+  #save{
+    margin-left: 50px;
+  }
+
+  #angle{
+    width: 35px;
+  }
+
+  #menu{
+      overflow: visible;
+  }
+
+  #main{
+      overflow: visible;
+  }
+
+  .select {
+      border-style:solid;
+      border-width:2px;
+      border-color:red;  
+  }
