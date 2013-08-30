@@ -14,7 +14,7 @@ jq191('ul').addClass("dragme hideme rotateme");
 jq191('li').addClass("dragme colorme hideme fontme rotateme");
 
 jq191('span').addClass("dragme hideme");
-//jq191('div').addClass("dragme hideme");
+jq191('div').addClass("dragme hideme");
 
 
 jq191('input').addClass('dragme hideme rotateme');

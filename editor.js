@@ -452,11 +452,13 @@ function setDialog(){
 
 function setHover(){
     jq191(".hideme").hover(
-        function () {
+        function (event) {
             jq191(this).addClass("select");
+            event.stopPropagation();
         },
-        function () {
+        function (event) {
             jq191(this).removeClass("select");
+            event.stopPropagation();
         }
     );  
 }
